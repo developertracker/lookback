@@ -215,8 +215,8 @@
             if(mousewheelCounter == 8) {
                 $('.intro__circle--text').addClass('transform--8');
             }
-            if(mousewheelCounter == 9) {
-                $('#intro').addClass('scale--5');
+            if(mousewheelCounter === 9) {
+                $('#intro').addClass('scale--2');
                 setTimeout(function(){
                     $('#intro').fadeOut();
                 },500)
@@ -243,7 +243,7 @@
             if(mousewheelCounter == 20) {
                 $('#overlay-1, #fade-text-1').addClass('opacity--1');
             }
-            if(mousewheelCounter <= 24 && mousewheelCounter > 20) {
+            if(mousewheelCounter === 24) {
                 $('#cards--1').addClass('scale--2');
                 setTimeout(function(){
                     $('#cards--1').fadeOut();
@@ -271,7 +271,7 @@
             if(mousewheelCounter <= 36 && mousewheelCounter > 34) {
                 $('#overlay-2, #fade-text-2').addClass('opacity--1');
             }
-            if(mousewheelCounter == 38) {
+            if(mousewheelCounter === 38) {
                 $('#cards--2').addClass('scale--2');
                 setTimeout(function(){
                     $('#cards--2').fadeOut();
@@ -299,7 +299,7 @@
             if(mousewheelCounter <= 51 && mousewheelCounter > 48) {
                 $('#overlay-3, #fade-text-3').addClass('opacity--1');
             }
-            if(mousewheelCounter == 52) {
+            if(mousewheelCounter === 52) {
                 $('#cards--3').addClass('scale--2');
                 setTimeout(function(){
                     $('#cards--3').fadeOut();
@@ -327,7 +327,7 @@
             if(mousewheelCounter == 64) {
                 $('#overlay-4, #fade-text-4').addClass('opacity--1');
             }
-            if(mousewheelCounter == 66) {
+            if(mousewheelCounter === 66) {
                 $('#cards--4').addClass('scale--2');
                 setTimeout(function(){
                     $('#cards--4').fadeOut();
@@ -355,7 +355,7 @@
             if(mousewheelCounter <= 78 && mousewheelCounter > 76) {
                 $('#overlay-5, #fade-text-5').addClass('opacity--1');
             }
-            if(mousewheelCounter == 80) {
+            if(mousewheelCounter === 80) {
                 $('#cards--5').addClass('scale--2');
                 setTimeout(function(){
                     $('#cards--5').fadeOut();
