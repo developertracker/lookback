@@ -34,7 +34,7 @@
                 $('#intro').removeClass('scale--5').addClass('scale--2');
                 setTimeout(function(){
                     $('#intro').fadeIn().removeClass('scale--2').addClass('scale--1');
-                },500)
+                },300)
                 setTimeout(function(){
                     $('#cards--1').fadeOut();
                 },500)       
@@ -216,10 +216,8 @@
                 $('.intro__circle--text').addClass('transform--8');
             }
             if(mousewheelCounter === 9) {
-                $('#intro').addClass('scale--2');
-                setTimeout(function(){
-                    $('#intro').fadeOut();
-                },500)
+                $('#intro').addClass('scale--2').delay('300').fadeOut();
+               
                 setTimeout(function(){
                     $('#cards--1').fadeIn();
                 },500)
